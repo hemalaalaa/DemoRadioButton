@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 RadioGroup rg =  (RadioGroup)findViewById(R.id.radioGroup1);
 
+                
                 int selectedButtonId = rg.getCheckedRadioButtonId();
 
                 RadioButton rb = (RadioButton)findViewById(selectedButtonId);
